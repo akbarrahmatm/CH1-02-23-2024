@@ -16,3 +16,11 @@
     background-position: 0% 50%;
   }
 }
+
+.feature {
+  border-right: 1px solid black;
+}
+
+.feature:last-child {
+  border: none;
+}
