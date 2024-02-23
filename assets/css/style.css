@@ -1,3 +1,6 @@
+body {
+  font-family: Helvetica;
+}
 #title {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;
@@ -23,4 +26,49 @@
 
 .feature:last-child {
   border: none;
+}
+
+.button-primary-outline {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  border: 1px solid #933393;
+  border-radius: 8px;
+  align-items: center;
+  padding: 17px 16px;
+  display: flex;
+}
+
+.heading-32 {
+  color: #933393;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.link-block-20 {
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  text-decoration: none;
+  display: flex;
+}
+
+.carousel {
+  width: 832px;
+  height: 270px;
+  margin: auto;
+  background-color: #f1f3ff;
+}
+
+.featurette {
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../img/fi_chevron-left.svg") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../img/fi_chevron-right.svg") !important;
 }
