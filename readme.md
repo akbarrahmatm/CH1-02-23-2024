@@ -1,6 +1,6 @@
 # Live Coding FD 4 (23-02-2024)
 
-Continued live coding results fd 4 with additional testimonial section using Carousel Bootstrap Component.
+Continued live coding results from FD 4 with additional testimonial section using Carousel Bootstrap Component.
 
 ## Demo
 
